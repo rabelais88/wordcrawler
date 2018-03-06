@@ -50,6 +50,9 @@ h1{
   display:flex;
   align-items:center;
 }
+#wordetc{
+  word-break:break-all;
+}
 
 /* below 900px width */
 @media only screen and (max-width: 900px) {
