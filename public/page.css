@@ -1,0 +1,65 @@
+* {  font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
+.word{
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.4);
+  text-decoration:none;
+  color:cornflowerblue;
+  transition:0.5s;
+  font-weight:600;
+  word-break:break-all;
+}
+.word:hover{
+  opacity:0.4;
+  transition:0.5s;
+}
+body{
+  background-color:cornflowerblue;
+}
+
+hr{
+  border-top:none;
+  border-bottom:solid 1px cornflowerblue;
+}
+
+h1{
+  color:cornflowerblue;
+  font-size:50px;
+}
+
+#paper{
+  background-color:white;
+  box-shadow:0 0 30px rgba(0,0,0,0.6);
+  padding:40px;
+  margin-top:0;
+  margin-bottom:0;
+  margin-left:20%;
+  margin-right:20%;
+}
+.link{
+  text-decoration:none;
+  color:black;
+  padding:5px;
+  font-size:12px;
+  transition:0.5s;
+  border-radius:5px;
+}
+.link:hover{
+  background-color:rgba(0,0,0,0.4);
+  transition:0.5s;
+}
+.linkCont{
+  display:flex;
+  align-items:center;
+}
+
+/* below 900px width */
+@media only screen and (max-width: 900px) {
+  #paper{
+    margin-left:10%;
+    margin-right:10%;
+  }
+}
+
+/* wider than 900px width */
+@media only screen and (min-width: 900px) {
+
+}
