@@ -55,10 +55,10 @@ h1{
 }
 
 /* below 900px width */
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   #paper{
-    margin-left:10%;
-    margin-right:10%;
+    margin-left:0;
+    margin-right:0;
   }
 }
 
