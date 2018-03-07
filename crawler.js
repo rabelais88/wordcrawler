@@ -55,7 +55,7 @@ const preserveData = (data) =>{
     return b[1] - a[1]
   })
   
-  let endTime = moment().tz('Asia/Seoul').format('YYYY-MM-DD hh:ss')
+  let endTime = moment().tz('Asia/Seoul').format('YYYY-MM-DD hh:mm')
   console.log('data calculated & preserved --- ' + endTime)
 
 
@@ -170,7 +170,7 @@ function mainCrawl(cb) {
   })
 
   Promise.all(promises).then((results)=>{
-    console.log('crawl finished --- ' + moment().tz('Asia/Seoul').format('YYYY-MM-DD hh:ss'))
+    console.log('crawl finished --- ' + moment().tz('Asia/Seoul').format('YYYY-MM-DD hh:mm'))
     cb(results)
   })
 } 

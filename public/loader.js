@@ -1,4 +1,5 @@
 $(function(){
+
   $.getJSON('ajax.json',(res)=>{
     console.log(res);
     $('#time').html(res.time);
@@ -19,4 +20,5 @@ $(function(){
       }
     })
   })
+  
 })
